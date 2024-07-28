@@ -1,5 +1,5 @@
 {
   "rewrites": [
-    { "source": "/:url*", "destination": "http://search.kuwo.cn/:url*" },
+    { "source": "/(.*)", "destination": "http://search.kuwo.cn/(.*)" },
   ]
 }
