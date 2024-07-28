@@ -1,8 +1,8 @@
 {
   "rewrites": [
     { "source": "/:match/:url*", "destination": "http://search.kuwo.cn/:match/:url*" },
-    { "source": "/:match/:url*/", "destination": "http://search.kuwo.cn/:match/:url*/" },
+    { "source": "/:match/:url*/", "destination": "http://search.kuwo.cn/:match/:url*" },
     { "source": "/:match/:url*", "destination": "http://search.kuwo.cn/:match/:url*" },
-    { "source": "/:match/:url*/", "destination": "http://search.kuwo.cn/:url*/" }
+    { "source": "/:match/:url*/", "destination": "http://search.kuwo.cn/:url*" }
   ]
 }
