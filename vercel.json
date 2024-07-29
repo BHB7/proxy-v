@@ -8,7 +8,7 @@
   ],
   "routes": [
     {
-      "src": "/kws/(.*)",
+      "src": "/kws:url/(.*)",
       "dest": "http://search.kuwo.cn/$1"
     },
     {
